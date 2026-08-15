@@ -29,27 +29,10 @@ body {
     font-size: 1.3rem;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
 .container {
-    width: 80%;
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-}
-
-.row {
-    /* display: flex => flex container */
-    display: flex;
-
-    /* can't use yet */
-    /* gap: 100px; */
-}
-
-.col {
-    /* these are now flex items */
-    width: 100%;
 }
 
 .hero {
@@ -58,12 +41,17 @@ h1 {
     color: #FFF;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 .hero__text {
     width: 60%;
 }
 
 .hero p {
     margin-bottom: 3em;
+    line-height: 2rem;
 }
 
 .btn {
@@ -80,4 +68,37 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+
+/* BOTH SECTIONS */
+.row {
+    display: flex;
+    gap: 1rem;
+}
+
+.col {
+    /* these are now flex items */
+    width: 100%;
+    padding: 4rem 0;
+}
+
+
+/* THREE COLS */
+.three-col {
+    text-align: center;
+    line-height: 2rem;
+}
+
+.three-col h2 {
+    color: #87629A;
+}
+
+
+/* TWO-COLS */
+.two-col {
+    background-color: #136C72;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
 }
