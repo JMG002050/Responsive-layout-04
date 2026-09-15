@@ -3,7 +3,7 @@
 This challenge is part of the conquering responsive design by Kevin Powell.
 
 ## Live Preview
-https://jmg002050.github.io/Responsive-layout-03/
+[https://jmg002050.github.io/Responsive-layout-03/](https://jmg002050.github.io/Responsive-layout-04/)
 
 ## 📸 Preview
 <img width="2880" height="1800" alt="MacBook Pro-1780587284477" src="resources/design/Preview.jpeg" />
